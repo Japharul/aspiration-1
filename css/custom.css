@@ -1,0 +1,54 @@
+.newsletter {
+padding: 80px 0;
+background: #19beda;
+}
+
+.newsletter .content {
+max-width: 650px;
+margin: 0 auto;
+text-align: center;
+position: relative;
+z-index: 2; }
+.newsletter .content h2 {
+color: #243c4f;
+margin-bottom: 40px; }
+.newsletter .content .form-control {
+height: 50px;
+border-color: #ffffff;
+border-radius:0;
+}
+.newsletter .content.form-control:focus {
+box-shadow: none;
+border: 2px solid #243c4f;
+}
+.newsletter .content .btn {
+min-height: 50px; 
+border-radius:0;
+background: #243c4f;
+color: #fff;
+font-weight:600;
+}
+/* Custom CSS */
+.medium-image {
+    max-width: 300px; /* Set the maximum width for the medium image */
+    height: 400px; /* Maintain the image's aspect ratio */
+}
+
+/** nav bar */
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(10 6 6);
+    font-size: medium;
+    font-style: inherit;
+    font-weight: 500;
+}
+
+.nav-link-custom {
+    font-size: large;
+    color: #080606;
+  }
+
+  .nav-bar {
+    position: relative;
+    top: 0px;
+    width: 100%;
+}
